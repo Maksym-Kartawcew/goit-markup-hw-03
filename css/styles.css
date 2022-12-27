@@ -54,7 +54,7 @@ ol {
   color: var(--page-color);
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -141,6 +141,8 @@ img {
 /* main page */
 .title-box {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-page-title {
@@ -150,13 +152,13 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  padding-top: 188px;
+  
   margin-bottom: 48px;
 }
 
 .button {
   text-align: center;
-  padding-bottom: 188px;
+ 
 }
 .modal-btn {
   font-family: "Roboto";
@@ -296,8 +298,7 @@ img {
   border: 1px solid #e7e9fc;
 }
 .portfolio-card {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0px 32px 16px;
 }
 
 .portfolio-text-title {
@@ -305,15 +306,13 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding: 0px 0px 0px 16px;
-  margin-bottom: 8px;
+   margin-bottom: 8px;
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 0px 0px 0px 16px;
   margin: 0;
 }
 
